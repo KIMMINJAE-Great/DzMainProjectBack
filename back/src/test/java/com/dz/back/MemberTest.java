@@ -281,7 +281,7 @@ public class MemberTest {
 					ps.setString(2, "ROLE_USER");
 				} else if(i < 90) {
 					ps.setString(1, "manager" + i);
-					ps.setString(2, "ROLSE_MANAGER");
+					ps.setString(2, "ROLE_MANAGER");
 				}else {
 					ps.setString(1, "admin" + i);
 					ps.setString(2, "ROLE_ADMIN");
